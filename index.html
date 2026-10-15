@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hospital Appointment Portal</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #eef7f6; margin: 0; color: #1c2b2a; }
+  header { background: #0f766e; color: #fff; text-align: center; padding: 22px 12px; }
+  header h1 { margin: 0 0 4px; font-size: 26px; }
+  header p { margin: 0; font-size: 14px; }
+  main { max-width: 920px; margin: 20px auto; padding: 0 14px; }
+  section { background: #fff; border-radius: 6px; padding: 14px 18px; margin-bottom: 16px; box-shadow: 0 1px 4px rgba(0,0,0,.12); }
+  h2 { margin-top: 0; color: #0f766e; border-bottom: 2px solid #0f766e; padding-bottom: 4px; font-size: 20px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { border-bottom: 1px solid #d5e5e3; padding: 7px 8px; text-align: left; }
+  th { background: #def2ef; }
+  .slot { display: inline-block; background: #ccfbf1; border: 1px solid #5eead4; border-radius: 4px; padding: 2px 8px; margin: 2px; font-size: 13px; }
+  .full { background: #fee2e2; border-color: #fca5a5; text-decoration: line-through; }
+  .notice { background: #fef9c3; border-left: 5px solid #ca8a04; padding: 8px 12px; margin: 6px 0; font-size: 14px; }
+  footer { text-align: center; font-size: 13px; color: #4b5f5d; padding: 14px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Apollo City Hospital - Appointment Portal</h1>
+  <p>45 Health Avenue, Vellore | Emergency: 108 | Appointments: +91 416 555 0199</p>
+</header>
+<main>
+  <section>
+    <h2>Doctor Profiles and Consultation Timings</h2>
+    <table>
+      <tr><th>Doctor</th><th>Specialization</th><th>Experience</th><th>Consultation Timings</th></tr>
+      <tr><td>Dr. Meera Nair</td><td>Cardiology</td><td>15 years</td><td>Mon - Fri, 09:00 AM - 01:00 PM</td></tr>
+      <tr><td>Dr. Arjun Rao</td><td>Orthopedics</td><td>12 years</td><td>Mon - Sat, 10:00 AM - 04:00 PM</td></tr>
+      <tr><td>Dr. Sana Khan</td><td>Pediatrics</td><td>9 years</td><td>Mon - Sat, 09:00 AM - 02:00 PM</td></tr>
+    </table>
+  </section>
+  <section>
+    <h2>Available Appointment Slots - Today</h2>
+    <p><b>Dr. Meera Nair:</b> <span class="slot">09:30 AM</span><span class="slot full">10:00 AM</span><span class="slot">11:30 AM</span><span class="slot">12:15 PM</span></p>
+    <p><b>Dr. Arjun Rao:</b> <span class="slot">10:30 AM</span><span class="slot">12:00 PM</span><span class="slot full">02:00 PM</span><span class="slot">03:30 PM</span></p>
+    <p><b>Dr. Sana Khan:</b> <span class="slot">09:15 AM</span><span class="slot">10:45 AM</span><span class="slot">12:30 PM</span></p>
+  </section>
+  <section>
+    <h2>Hospital Announcements</h2>
+    <div class="notice">Free health check-up camp on 25-Oct-2026 (9:00 AM - 1:00 PM).</div>
+    <div class="notice">Visiting hours: 05:00 PM - 07:00 PM. Please carry your appointment confirmation.</div>
+  </section>
+</main>
+<footer>Hospital Portal | Release 0.0.0-dev | Contact: appointments@apollocity.example</footer>
+</body>
+</html>
